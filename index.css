@@ -1,0 +1,90 @@
+*{
+    box-sizing: border-box;
+    margin: auto;
+}
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+nav{
+
+    height: 100px;
+    display: flex;
+
+}
+ul{
+    list-style: none;
+    display: flex;
+    flex: content;
+    margin: 0 100px;
+    text-transform: uppercase;
+    
+}
+li{
+   font-size: 1.7vw;
+    align-content: center;
+}
+#logo{
+    text-decoration: underline;
+    font-size:3vw;
+  
+    font-family: 'Syne Tactile', cursive;
+    
+}
+.article1{
+    background-color: rgb(255, 235, 205);
+    height: auto;
+    width: auto;
+    padding: 0 100px;
+    clear: both;
+    display: flex;
+}
+aside{
+    width: 20%;
+    float: left;
+
+}
+#article1background{
+    width: 60%;
+    height: 400px;
+    float: left;
+}
+h1{
+    font-family: 'Syne Tactile', cursive;
+    font-size: 2.4vw;
+    text-align: center;
+    letter-spacing: 0.1cm;
+}
+h3{
+    font-family: 'Lato', sans-serif;
+    word-spacing: 0.5cm;
+    line-height:20px ;
+    padding:5px;
+    font-size: 1.9vw;
+   
+}
+div{
+    border: 3px white solid;
+}
+button{
+    margin-top: 10px;
+    background-color:rgba(165, 101, 42, 0.959);
+    color:aliceblue;
+    border: 0ch;
+    border-radius: 3px;
+   width: 100px;
+   height: 25px;
+    font-size: 1.1vw;
+}
+h5{
+    font-size: 1.2vw; 
+}
+img{
+    margin: 30px 10px 40px 40px;
+}
+.article2{
+    margin-top: 30px;
+}
+#h1article2{
+    font-weight:lighter;
+}
